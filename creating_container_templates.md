@@ -45,7 +45,7 @@ anthony@webserver-ct:~$
   - right-click the template, click 'Clone'
   - select the Target Node (pve), select Mode (Linked or Full clone( Full clone is better)), type a Name and CT id, Target Storage is lvm-thin in my case, and click 'clone'
 
-## 8- (optional) ssh into the CTs, configure the /etc/hostname and /etc/hosts files to the proper hostname if necessary
+## 8- ssh into the CTs, configure the /etc/hostname and /etc/hosts files to the proper hostname if necessary
   - if you cant ssh into the new CTs:
     check if the ssh service failed to run, in my case reinstalling openssh-server solved it
     ```

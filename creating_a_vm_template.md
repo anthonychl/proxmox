@@ -77,7 +77,7 @@ this process with destroy the VM itself, beware
   - right-click the template, click 'Clone'
   - select the Target Node (pve), select Mode (Linked or Full clone( Full clone is better)), type a Name and VM id, Target Storage is lvm-thin in my case, and click 'clone'
 
-## 12- (optional) ssh into the VMs, configure the /etc/hostname and /etc/hosts files to the proper hostname
+## 12- ssh into the VMs, configure the /etc/hostname and /etc/hosts files to the proper hostname
   - if you cant ssh into the new VMs:
     check if the ssh service failed to run, in my case reinstalling openssh-server solved it
     ```
